@@ -1,0 +1,30 @@
+ class police_Dgp{
+  void  state()
+{
+        String Dgp= "vengat";
+     {
+   System.out.println("tamil nadu dgp :"+Dgp);
+     }
+ 
+}
+ }
+
+ class Igp extends police_Dgp{
+ void  district(){
+
+     String Igp="surya";
+   {
+  System.out.println("chennai igp :"+Igp);
+  
+   } 
+ }
+}
+   public class inheritancesingle{
+    public static void main(String arg[]){
+  Igp vikram=new Igp();
+             vikram.state();
+             vikram.district();
+}
+  }
+
+
